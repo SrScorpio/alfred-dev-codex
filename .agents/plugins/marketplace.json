@@ -1,0 +1,17 @@
+{
+  "name": "alfred-dev-codex",
+  "plugins": [
+    {
+      "name": "alfred-dev-codex",
+      "source": {
+        "source": "local",
+        "path": "./plugins/alfred-dev-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "NONE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

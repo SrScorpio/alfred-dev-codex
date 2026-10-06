@@ -1,0 +1,45 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "alfred-dev-codex",
+  "version": "0.7.0",
+  "description": "Plugin de ingenieria de software: 8 agentes de nucleo, Selina si hay frontend y Lucius bajo demanda. Memoria persistente por proyecto, quality gates y flujos desde la idea hasta la entrega.",
+  "author": {
+    "name": "SrScorpio",
+    "url": "https://github.com/SrScorpio"
+  },
+  "homepage": "https://github.com/SrScorpio/alfred-dev-codex#readme",
+  "repository": "https://github.com/SrScorpio/alfred-dev-codex",
+  "license": "MIT",
+  "keywords": [
+    "sdlc",
+    "agents",
+    "security",
+    "tdd",
+    "devops",
+    "qa",
+    "product",
+    "spanish"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "alfred-dev-codex",
+        "shortDescription": "Tu empresa de ingenieria",
+        "longDescription": "Porte del plugin Alfred Dev de Claude Code a Codex: flujos SDLC completos (feature, quick, fix, spike, audit, ship), 10 perfiles de agente, memoria persistente por proyecto via el MCP alfred-memory, quality gates, guards de secretos y companion visual de Selina.",
+        "developerName": "SrScorpio",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Read",
+          "Write",
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "Usa alfred-dev-codex:alfred para empezar una tarea en este repo",
+          "Mapea este codebase con alfred-dev-codex:map-codebase",
+          "Usa alfred-dev-codex:progress para ver el estado del proyecto"
+        ],
+        "websiteURL": "https://github.com/SrScorpio/alfred-dev-codex"
+      }
+    }
+  }
+}
