@@ -8,8 +8,7 @@
         "path": "./plugins/alfred-dev-codex"
       },
       "policy": {
-        "installation": "AVAILABLE",
-        "authentication": "NONE"
+        "installation": "AVAILABLE"
       },
       "category": "Developer Tools"
     }
